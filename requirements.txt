@@ -1,0 +1,13 @@
+# PyTorch'u önce GPU sürümüyle kur (setup.bat bunu yapar):
+#   pip install torch==2.8.0 torchaudio==2.8.0 --index-url https://download.pytorch.org/whl/cu128
+# torchaudio 2.9+ forced_align'ı kaldırdığı için 2.8'de sabit.
+torch==2.8.0
+torchaudio==2.8.0
+demucs==4.1.0
+fastapi==0.159.1
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
